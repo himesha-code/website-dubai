@@ -1,0 +1,17 @@
+export { ReactComponent as Clock } from "./Clock.svg";
+export { ReactComponent as Contact } from "./Contact.svg";
+export { ReactComponent as MapMarker } from "./MapMarker.svg";
+export { ReactComponent as Market } from "./Market.svg";
+export { ReactComponent as Accounting } from "./Accounting.svg";
+export { ReactComponent as Bag } from "./Bag.svg";
+export { ReactComponent as Calculator } from "./calculator.svg";
+export { ReactComponent as Clipboards } from "./Clipboards.svg";
+export { ReactComponent as GST } from "./GST.svg";
+export { ReactComponent as MoneyBag } from "./MoneyBag.svg";
+export { ReactComponent as Verified } from "./Verified.svg";
+export { ReactComponent as Portfolio } from "./Portfolio.svg";
+export { ReactComponent as Home } from "./Home.svg";
+export { ReactComponent as PiggiBank } from "./PiggiBank.svg";
+export { ReactComponent as Risk } from "./Risk.svg";
+export { ReactComponent as World } from "./World.svg";
+export { ReactComponent as Bank } from "./Bank.svg";

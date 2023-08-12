@@ -1,0 +1,140 @@
+@import "./font.css";
+
+:root {
+  --bold-font: Roboto_Bold;
+  --light-font: Roboto_Light;
+  --regular-font: Roboto_Regular;
+  --medium-font: Roboto_Medium;
+  --text-light-black: #333333;
+  --text-light-gray: #999999;
+  --text-light: #ccc;
+  --primary-color: #a0cd4e;
+  --background-light: #555;
+  --background-gray: #f5f5f5;
+}
+
+* {
+  margin: 0;
+
+  font-family: var(--regular-font);
+  box-sizing: border-box;
+  padding: 0;
+}
+*:focus-within {
+  outline: none !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: var(--medium-font);
+}
+
+html {
+  font-size: 14px;
+}
+
+body {
+  background: var(--white-color);
+  font-size: 14px;
+}
+
+.fs-18 {
+  font-size: 18px !important;
+}
+
+.fs-30 {
+  font-size: 30px !important;
+}
+
+.fs-16 {
+  font-size: 16px !important;
+}
+.fs-20 {
+  font-size: 20px !important;
+}
+.fs-18 {
+  font-size: 18px !important;
+}
+
+.font-medium {
+  font-family: var(--medium-font);
+}
+.font-regular {
+  font-family: var(--regular-font);
+}
+
+.text-light-black {
+  color: var(--text-light-black) !important;
+}
+.text-light {
+  color: var(--text-light) !important;
+}
+
+.text-light-gray {
+  color: var(--text-light-gray) !important;
+}
+
+.background-light {
+  background-color: var(--background-light) !important;
+}
+.background-gray {
+  background-color: var(--background-gray) !important;
+}
+
+.navbar-collapse .nav-link {
+  text-transform: uppercase;
+}
+
+.ml-30 {
+  margin-left: 30px !important;
+}
+
+.our-services {
+  margin: 60px 0;
+}
+
+.title {
+  border-left: 2px solid var(--primary-color);
+  position: relative;
+}
+
+.title:before {
+  content: "";
+  border-left: 2px solid var(--primary-color);
+  height: 100%;
+  display: block;
+  position: absolute;
+  left: 3px;
+}
+
+.audit-services {
+  padding: 60px 0;
+}
+
+.work-feature {
+  margin: 60px 0;
+}
+.offerservice {
+  padding: 25px 35px;
+  background-color: var(--primary-color);
+}
+
+.offerservice-list {
+  line-height: 35px;
+}
+
+.testimonial {
+  padding: 60px 0;
+}
+.certifications{
+  margin: 60px 0
+}
+
+.certifications p{
+  line-height: 26px;
+}
+
+
